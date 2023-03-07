@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fire Prevention Month</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		h1 {
+			text-align: center;
+			color: #ff6600;
+			margin-top: 50px;
+		}
+		h2 {
+			color: #ff6600;
+			margin-top: 30px;
+			margin-bottom: 10px;
+		}
+		p {
+			line-height: 1.5;
+			margin-top: 0;
+		}
+		table {
+			border-collapse: collapse;
+			margin: 30px auto;
+		}
+		th, td {
+			padding: 10px;
+			border: 1px solid #ddd;
+			text-align: center;
+		}
+		th {
+			background-color: #ff6600;
+			color: #fff;
+		}
+		img {
+			display: block;
+			margin: 30px auto;
+			max-width: 100%;
+			height: auto;
+		}
+		form {
+			margin: 30px auto;
+			max-width: 500px;
+			padding: 20px;
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+			color: #666;
+		}
+		input[type=text], input[type=email] {
+			display: block;
+			margin-bottom: 20px;
+			padding: 10px;
+			width: 100%;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+		}
+		input[type=submit] {
+			background-color: #ff6600;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		nav {
+			background-color: #333;
+			color: #fff;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px;
+		}
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			padding: 10px;
+			border-radius: 5px;
+		}
+		nav a:hover {
+			background-color: #fff;
+			color: #333;
+			transition: background-color 0.3s, color 0.3s;
+		}
+		.button {
+			background-color: #ff6600;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.button:hover {
+			background-color: #fff;
+			color: #333;
+			transition: background-color 0.3s, color 0.3s;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<a href="#tips">Fire Prevention Tips</a>
+		<a href="#quiz">Fire Safety Quiz</a>
+	</nav>
+	<h1>Fire Prevention Month</h1>
+	<img src="fire-prevention.jpg" alt="Fire Prevention Month">
+	<h2 id="tips">Fire Prevention Tips</h2>
+	<table>
+		<tr>
+			<th>Tip</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>
+			Install Smoke Alarms</td>
+<td>Smoke alarms can detect a fire early, providing enough time to escape. Install smoke alarms in every room of your home and test them regularly to ensure they are working properly.</td>
+</tr>
+<tr>
+<td>Keep Flammable Materials Away</td>
+<td>Keep flammable materials like curtains, papers, and furniture away from heat sources like stoves and heaters to prevent fires from starting.</td>
+</tr>
+<tr>
+<td>Practice Safe Cooking Habits</td>
+<td>Never leave cooking food unattended, and keep flammable objects away from the stove. Turn off the stove and oven before leaving the kitchen.</td>
+</tr>
+<tr>
+<td>Have an Escape Plan</td>
+<td>Make sure everyone in your home knows how to escape in case of a fire. Plan and practice escape routes with your family.</td>
+</tr>
+</table>
+<h2 id="quiz">Fire Safety Quiz</h2>
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<p>1. What should you do if you discover a fire in your home?</p>
+<input type="radio" id="answer1a" name="answer1" value="a" required>
+<label for="answer1a">A. Panic and run out of the house.</label><br>
+<input type="radio" id="answer1b" name="answer1" value="b">
+<label for="answer1b">B. Call the fire department and try to put out the fire with a fire extinguisher.</label><br>
+<input type="radio" id="answer1c" name="answer1" value="c">
+<label for="answer1c">C. Get everyone out of the house and call the fire department from outside.</label><br>
+<p>2. Which of the following is NOT a good way to prevent fires in your home?</p>
+<input type="radio" id="answer2a" name="answer2" value="a">
+<label for="answer2a">A. Install smoke alarms in every room.</label><br>
+<input type="radio" id="answer2b" name="answer2" value="b">
+<label for="answer2b">B. Keep flammable materials away from heat sources.</label><br>
+<input type="radio" id="answer2c" name="answer2" value="c" required>
+<label for="answer2c">C. Leave cooking food unattended.</label><br>
+<input type="submit" value="Submit">
+</form>
+<button class="button"><a href="#top">Back to Top</a></button>
+<br><br>
+<small>&copy;Deguzman G2023</small>
